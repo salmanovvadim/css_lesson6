@@ -1,0 +1,23 @@
+.hovergallery img{
+  -webkit-transform: scale(0.8); /*Webkit: уменьшить изображение на 0.8х от оригинального размера*/
+  -moz-transform: scale(0.8); /*для Mozilla*/
+  -o-transform: scale(0.8); /*Для Opera*/
+  -webkit-transition-duration: 0.5s; /* Webkit продолжительность анимации*/
+  -moz-transition-duration: 0.5s; /* Для Mozilla*/
+  -o-transition-duration: 0.5s; /* Для Opera*/
+  opacity: 0.5; /*Первоначальное затемнение изображения - непрозрачность*/
+  margin: 16px; /*отступы между изображениями*/
+  float: left;
+}
+.hovergallery img:hover{
+  -webkit-transform: scale(1.2); /*Webkit: Масштабирование изображения 1.2х от оригинального размера*/
+  -moz-transform: scale(1.2); /*для Mozilla*/
+  -o-transform: scale(1.2); /*Для Opera*/
+  box-shadow: 0 0 30px gray; /*CSS3 тень цвета в 30px вокруг изображения*/
+  -webkit-box-shadow: 0 0 30px gray; /* Для Safari*/
+  -moz-box-shadow: 0 0 30px gray; /*Для Mozilla*/
+  opacity: 1;
+}
+div{
+  text-align: center;
+}
